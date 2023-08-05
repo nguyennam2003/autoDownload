@@ -1,0 +1,340 @@
+2023-08-04 17:14:20.176  WARN 46953 --- [main] o.s.b.l.logback.LogbackLoggingSystem     : Ignoring 'logback.configurationFile' system property. Please use 'logging.config' instead.
+2023-08-04 17:14:20.278  INFO 46953 --- [main] a.t.p.ParameterDownloadApplication       : Starting ParameterDownloadApplication v0.0.1-SNAPSHOT using Java 1.8.0_382 on PSLT-261 with PID 46953 (/home/eco1056-namns/Workspace/job/parameterdownload/target/parameterdownload-0.0.1-SNAPSHOT.jar started by eco1056-namns in /home/eco1056-namns/Workspace/job/parameterdownload/src/main/resources)
+2023-08-04 17:14:20.280  INFO 46953 --- [main] a.t.p.ParameterDownloadApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-08-04 17:14:22.031  INFO 46953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-08-04 17:14:22.042  INFO 46953 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-04 17:14:22.042  INFO 46953 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.78]
+2023-08-04 17:14:22.095  INFO 46953 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-04 17:14:22.095  INFO 46953 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1730 ms
+2023-08-04 17:14:22.637  INFO 46953 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-04 17:14:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:22.660  INFO 46953 --- [main] a.t.p.ParameterDownloadApplication       : Started ParameterDownloadApplication in 2.834 seconds (JVM running for 3.267)
+2023-08-04 17:14:24.476  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:24.878  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:24.879  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:29.100  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:29.494  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:29.495  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:34.079  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:34.486  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:34.487  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:39.086  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:39.531  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:39.531  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:44.059  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:44.459  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:44.460  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:49.143  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:50.069  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:50.070  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:54.141  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:54.745  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:54.745  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:14:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:14:59.056  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:14:59.447  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:14:59.448  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:04.149  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:04.534  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:04.534  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:09.098  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:09.990  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:09.991  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:14.091  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:14.698  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:14.698  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:19.065  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:19.447  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:19.447  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:24.017  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:24.429  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:24.430  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:29.106  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:29.996  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:29.998  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:34.122  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:34.747  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:34.748  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:39.085  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:39.474  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:39.475  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:44.146  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:44.804  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:44.805  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:49.146  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:49.936  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:49.936  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:57.857  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:15:58.255  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:15:58.256  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:15:58.256  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:15:59.886  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:00.301  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:00.302  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:04.260  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:04.966  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:04.967  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:09.340  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:09.858  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:09.858  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:14.103  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:14.494  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:14.495  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:19.159  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:19.589  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:19.590  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:24.229  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:25.165  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:25.165  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:29.158  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:29.779  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:29.780  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:34.116  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:34.520  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:34.521  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:39.023  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:39.749  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:39.750  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:44.134  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:44.808  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:44.809  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:49.141  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:49.525  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:49.526  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:54.270  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:55.162  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:55.162  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:16:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:16:59.181  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:16:59.798  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:16:59.798  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:04.106  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:04.514  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:04.515  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:09.117  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:09.511  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:09.512  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:14.189  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:14.619  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:14.620  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:19.099  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:19.818  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:19.818  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:24.354  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:24.882  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:24.882  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:29.085  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:29.484  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:29.485  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:34.033  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:34.422  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:34.423  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:39.057  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:39.967  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:39.968  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:44.053  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:44.689  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:44.690  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:49.090  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:49.489  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:49.490  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:54.331  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:17:54.559  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:17:54.559  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:17:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:17:59.478  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:00.907  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:00.907  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:04.242  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:04.959  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:04.960  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:09.097  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:09.478  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:09.478  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:14.081  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:14.818  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:14.818  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:19.073  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:19.593  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:19.593  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:24.125  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:24.514  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:24.515  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:29.065  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:29.444  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:29.445  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:34.168  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:34.629  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:34.629  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:39.098  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:39.501  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:39.502  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:44.162  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:44.506  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:44.507  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:49.080  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:49.462  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:49.462  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:55.069  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:55.486  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:55.487  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:18:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:18:59.293  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:18:59.521  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:18:59.521  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:04.093  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:04.795  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:04.796  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:09.099  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:09.593  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:09.594  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:14.167  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:14.571  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:14.571  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:19.080  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:19.474  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:19.474  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:24.090  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:24.845  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:24.845  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:29.012  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:29.825  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:29.826  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:34.018  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:34.397  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:34.398  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:39.224  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:39.634  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:39.635  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:44.166  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:45.314  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:45.315  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:49.022  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:49.543  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:49.543  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:54.189  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:54.785  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:54.786  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:19:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:19:59.087  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:19:59.467  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:19:59.467  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:04.068  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:04.755  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:04.755  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:08.998  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:09.574  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:09.574  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:14.030  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:14.440  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:14.441  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:17.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:19.188  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:19.572  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:19.573  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:22.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:24.200  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:24.840  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:24.841  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:27.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:29.062  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:29.459  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:29.459  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:32.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:34.034  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:34.741  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:34.742  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:37.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:39.156  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:39.591  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:39.591  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:42.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:44.109  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:44.720  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:44.720  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:47.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:49.040  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:49.432  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:49.433  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:52.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:54.069  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:54.778  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:54.779  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:20:57.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:20:59.139  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:20:59.989  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:20:59.990  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:21:02.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:21:04.155  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:21:04.551  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:21:04.551  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:21:07.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:21:09.097  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.
+2023-08-04 17:21:09.811  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Download file success with fileName = Jsc20230804_1100.zip
+2023-08-04 17:21:09.811  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Finish download file
+2023-08-04 17:21:12.654  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Start download file
+2023-08-04 17:21:14.069  INFO 46953 --- [scheduling-1] a.t.p.service.ParameterDownloadService   : Move file to backup success.

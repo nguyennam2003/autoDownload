@@ -1,0 +1,17 @@
+web:
+  url: https://www.jpx.co.jp/jscc/sakimono/span/
+
+schedule:
+  time: "0 5 11,15,17 * * *"
+
+folderPath:
+  currentFile: "/home/eco1056-namns/Desktop/file/current_file/"
+  fileBackup: "/home/eco1056-namns/Desktop/file/backup/"
+
+logging:
+  level:
+    root: INFO
+  file:
+    name: parameter-download
+    path: /home/eco1056-namns/Desktop/file/logs
+
