@@ -12,6 +12,4 @@ logging:
   level:
     root: INFO
   file:
-    name: parameter-download
-    path: /home/eco1056-namns/Desktop/file/logs
-
+    path: "/home/eco1056-namns/Desktop/file/logs/"
